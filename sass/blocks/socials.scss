@@ -1,0 +1,33 @@
+.socials {
+  display: flex;
+  padding: 0;
+  list-style: none;
+
+  align-items: flex-end;
+}
+.socials_element {
+  margin: 0 6px;
+  &:last-child {
+    margin-right: 0;
+  }
+}
+.socials_facebook {
+  width: 10px;
+  height: 22px;
+  fill: $second;
+}
+.socials_twitter {
+  width: 26px;
+  height: 21px;
+  fill: $second;
+}
+.socials_linkedin {
+  width: 24px;
+  height: 23px;
+  fill: $second;
+}
+.socials_google {
+  width: 19px;
+  height: 19px;
+  fill: $second;
+}
